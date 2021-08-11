@@ -7,8 +7,11 @@ import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import { Provider } from 'react-redux'
-import store from './store';
+import { rootReducer } from './game-oan-tu-ti-redux/redux/Reducer/rootReducer';
 import reportWebVitals from './reportWebVitals';
+import { createStore } from 'redux';
+
+const store = createStore(rootReducer);
 
 ReactDOM.render(
   <React.StrictMode>

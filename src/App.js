@@ -5,7 +5,7 @@ import GameOanTuTi from './game-oan-tu-ti-redux/GameOanTuTi';
 function App() {
   return (
     <div className="App">
-      <GameOanTuTi/>
+      <GameOanTuTi />
     </div>
   );
 }
